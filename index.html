@@ -5,9 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Welcome To KakaoTalk</title>
+    <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-    <div id="status-bar">
+    <div class="status-bar">
         <div class="status-bar__column">
             <span>No Service</span>
             <i class="fa-solid fa-wifi"></i>
@@ -18,7 +19,7 @@
         </div>
         <div class="status-bar__column">
             <span>11%</span>
-            <i class="fa-solid fa-battery-three-quarters"></i>
+            <i class="fa-solid fa-lg fa-battery-three-quarters"></i>
             <i class="fa-solid fa-bolt"></i>
         </div>
     </div>
@@ -28,11 +29,10 @@
         <p class="welcome-header__text">If you have a Kakao Account, log in with your email or phone number.</p>
     </header>
 
-    <form id="login-form">
+    <form action="friends.html" id="login-form">
         <input type="text" placeholder="Email or phone number">
         <input type="password" placeholder="Password">
         <input type="submit" value="Log In">
-        <input type="submit" value="Sign Up">
         <a href="#">Find KaKao Account or Password</a>
     </form>
 
