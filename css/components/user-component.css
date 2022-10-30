@@ -1,6 +1,7 @@
 /* User-component -1 */
 .user-component{
     justify-content: space-between;
+    margin-top: 25px;
 }
 
 .user-component__column{
@@ -36,4 +37,11 @@
     color: rgba(0,0,0,0.6);
 }
 
+.user-component__column-chats{
+    flex-direction: column;
+}
+
+.user-component__time{
+    margin-bottom: 5px;
+}
 
