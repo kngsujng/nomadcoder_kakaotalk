@@ -1,0 +1,36 @@
+.settings-screen{
+    padding: 10px var(--horizontal-space) 0;
+}
+
+.settings__setting{
+    display: flex;
+    align-items: center;
+    padding: 25px 0;
+}
+
+.settings__setting-txt{
+    padding-left: 25px;
+    font-size: 20px;
+}
+
+.settings__setting p{
+    margin-left: auto;
+    color: var(--heavy-gray);
+    font-size: 18px;
+}
+
+.settings__setting:nth-child(3){
+    padding-bottom: 30px;
+    border-bottom: var(--main-border);
+}
+
+.settings__setting:nth-child(4){
+    padding-top: 30px;
+}
+
+.badge{
+    margin-left: 10px;
+    width: 20px;
+    height: 20px;
+    font-size: 12px;
+}
