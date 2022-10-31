@@ -28,9 +28,16 @@
     padding-top: 30px;
 }
 
-.badge{
-    margin-left: 10px;
+.settings-badge{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 8px;
     width: 20px;
     height: 20px;
+    border-radius: 50%;
+    background-color: #ff6229;
+    color: white;
+    font-weight: 600;
     font-size: 12px;
 }
